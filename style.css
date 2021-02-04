@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+.para{
+    color: black;
+   
+   
+  
+}
+.para h1{
+    margin: -100px !important;
+    font-size: 60px;
+}
+
+.para p{
+    margin: 150px !important;
+    color: black !important;
+    font-weight: bold;
+}
+.main-card{
+    padding: 40px;
+    cursor: pointer;
+}
+.card{
+   transition: all 1.3s ease;
+   margin: 30px;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.bg-img{
+    background-image: url(Images/img1.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+}
+.nav_bar{
+    position: sticky;
+    top: 0;
+    padding-left: 30px;
+    background-color: white !important;
+}
+.text-set{
+    padding: 160px;
+}
+@media screen and (max-width: 1080px) {
+    .text-set {
+      padding:20px;
+    }
+  }
+
+.text-set h4{
+    color: white;
+}
+
+.text-set h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+@media screen and (max-width: 350px) {
+    .text-set h1 {
+     font-size:50px ;
+    }
+  }
+.navbar-brand{
+      margin-left:90px;
+  }
+.logo i{
+   font-size: 45px;
+   color: red;
+}
+.nav_bar-ul{
+   margin-left: 150px;
+   font-size: 20px;
+   font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+    .nav_bar-ul{
+     margin-left: -20px;
+    }
+  }
+ .nav_bar-ul .nav-item .nav-link{
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+}
+.nav_bar-ul .nav-item .nav-link:hover {
+    background-color: #666;
+    color: white;
+  }
+
+  .navbar-toggler{
+      background-color: black;
+  }
+  .contact{
+      background-color: rgb(243, 242, 242);
+      border-radius: 20px;
+  }
+
+  .contact h1{
+      padding: 20px;
+      text-align: center;
+  }
